@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float p=2600,r=6,t=2;
+    float ci=p*pow((1+r/100),t)-p;
+    printf("CI=%.2f\n",ci);
+    return 0;
+}
