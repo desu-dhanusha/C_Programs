@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    float p=2600,r=6,t=2;
+    printf("SI=%.2f\n",(p*r*t)/100);
+    return 0;
+}
