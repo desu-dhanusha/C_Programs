@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    int l=18,b=6;
+    printf("Area = %d\n",l*b);
+    return 0;
+}
