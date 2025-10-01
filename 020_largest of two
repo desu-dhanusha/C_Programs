@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a=23,b=63;
+    if(a>b)
+    printf("a is large\n");
+    else
+    printf("b is large\n");
+    return 0;
+}
