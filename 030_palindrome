@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int n=121, t=n, rev=0;
+    while(n){ rev=rev*10+n%10; n/=10; }
+    if(t==rev) 
+    printf("Palindrome\n");
+    else 
+    printf("Not Palindrome\n");
+    return 0;
+}
