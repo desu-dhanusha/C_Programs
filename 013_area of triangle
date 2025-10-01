@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    float b=8,h=6;
+    printf("Area = %.2f\n",0.5*b*h);
+    return 0;
+}
