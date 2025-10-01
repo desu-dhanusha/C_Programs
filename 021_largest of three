@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int a=203,b=63,c=100;
+    if(a>b && a>c)
+    printf("a is large\n");
+    else if(b>c)
+    printf("b is large\n");
+    else
+    printf("c is large\n");
+    return 0;
+}
