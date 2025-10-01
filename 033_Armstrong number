@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int n=153,t=n,sum=0;
+    while(n){ int d=n%10; sum+=d*d*d; n/=10; }
+    if(sum==t) 
+    printf("Armstrong\n");
+    else
+    printf("Not Armstrong\n");
+    return 0;
+}
