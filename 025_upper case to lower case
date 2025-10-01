@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+    char c='A';
+    printf("Lowercase = %c\n", c+32);
+    return 0;
+}
