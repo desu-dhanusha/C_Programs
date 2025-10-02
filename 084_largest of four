@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() 
+{
+    int a=4,b=9,c=2,d=7,max=a;
+    if(b>max) max=b; if(c>max) max=c; if(d>max) max=d;
+    printf("Largest=%d\n",max);
+    return 0;
+}
