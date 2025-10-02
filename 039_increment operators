@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int n=17;
+    printf("\n The value of n=%d",n);
+    printf("\n The value of n=%d",++n);
+    printf("\n The value of n=%d",n++);
+return 0;
+    
+}
