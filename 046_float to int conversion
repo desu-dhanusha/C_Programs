@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float n;
+    int a;
+    printf("\n Enter any floating number:");
+    scanf("%f",&n);
+    a=(int)n;
+    printf("\n The integer variant of %f is=%d",n,a);
+    return 0;
+}
