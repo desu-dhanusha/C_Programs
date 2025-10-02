@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    int a=20,b=5;
+    if(a%b==0) printf("Multiple\n"); else 
+    printf("Not Multiple\n");
+    return 0;
+}
