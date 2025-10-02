@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int add,sub,mul,div,moddiv;
+    int a=63,b=28;
+    add=a+b;
+    sub=a-b;
+    mul=a*b;
+    div=a/b;
+    moddiv=a%b;
+    printf("\nadd is %d",a+b);
+    printf("\nsub is %d",a-b);
+    printf("\nmul is %d",a*b);
+    printf("\ndiv is %d",a/b);
+    printf("\nmoddiv is %d",a%b);
+    return 0;
+}
