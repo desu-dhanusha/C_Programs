@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() 
+{
+    int a=8,b=3,c=5,min=a;
+    if(b<min) min=b; if(c<min) min=c;
+    printf("Smallest=%d\n",min);
+    return 0;
+}
