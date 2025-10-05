@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char s[] = "I love coding";
+    int i, words = 1;
+    for(i = 0; s[i]; i++)
+        if(s[i] == ' ') words++;
+    printf("Words = %d", words);
+    return 0;
+}
