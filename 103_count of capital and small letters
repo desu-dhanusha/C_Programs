@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char s[] = "HelloWorld";
+    int i, cap = 0, small = 0;
+    for(i = 0; s[i]; i++) {
+        if(s[i]>='A' && s[i]<='Z') cap++;
+        if(s[i]>='a' && s[i]<='z') small++;
+    }
+    printf("Capital=%d Small=%d", cap, small);
+    return 0;
+}
