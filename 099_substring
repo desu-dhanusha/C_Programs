@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int main() 
+{
+    char s1[] = "Welcome to C language";
+    char s2[] = "C";
+    if(strstr(s1, s2))
+        printf("Substring found!");
+    else
+        printf("Not found!");
+    return 0;
+}
