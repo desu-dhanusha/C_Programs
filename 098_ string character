@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char s[] = "Dhanusha", ch = 'n';
+    if(strchr(s, ch))
+        printf("'%c' found!", ch);
+    else
+        printf("'%c' not found!", ch);
+    return 0;
+}
