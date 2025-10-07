@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("\n Enter a positive number:");
+    scanf("%d",&n);
+    if(n<=0)
+    goto error;
+    printf("You entered:%d",n);
+    return 0;
+    
+    error:
+    printf("Invalid input.Please enter a positive number.");
+    return 1;
+}
