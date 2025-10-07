@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int a = 10;
+    float b = 3.14;
+    char c = 'A';
+    double d = 123.456789;
+
+    printf("Integer: %d\n", a);
+    printf("Float: %.2f\n", b);
+    printf("Character: %c\n", c);
+    printf("Double: %.6lf\n", d);
+
+    return 0;
+}
